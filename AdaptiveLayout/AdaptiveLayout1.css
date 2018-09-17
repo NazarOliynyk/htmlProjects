@@ -1,0 +1,148 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+  max-width: 100%;
+    height: auto
+}
+
+.w-80{
+    width: 80%
+}
+
+.w-50{
+    width: 50%
+}
+
+.w-33{
+    width: 33.3%
+}
+
+.w-25{
+    width: 25%
+}
+
+.h-80{
+    height: 80%
+}
+
+.h-60{
+    height: 60%
+}
+
+.h-40{
+    height: 40%
+}
+
+.m-0-au{
+  margin: 0 auto
+}
+
+.m-top-42{
+    margin-top: 42.5%
+}
+
+.m-top-30{
+    margin-top: 30%
+}
+
+.m-top-25{
+    margin-top: 25%
+}
+
+.m-top-15{
+    margin-top: 15%
+}
+
+.m-top-7{
+    margin-top: 7%
+}
+
+.pdg-3{
+    padding: 3% 
+}
+
+.float-l{
+    float: left
+}
+
+.float-r{
+    float: right
+}
+
+.clearfix{
+    clear: both
+}
+
+.bg-red{
+    background: red
+}
+
+.bg-blue{
+    background: blue
+}
+
+.bg-snow{
+    background: snow
+}
+
+.bg-black{
+    background: black
+}
+
+.bg-green{
+    background: green
+}
+
+.bg-orange{
+    background: orange
+}
+
+.bg-pink{
+    background: pink
+}
+
+.main{
+    width: 1000px;
+    border: 2px solid red;
+    color: snow;
+    text-align: center
+}
+
+.header{
+    height: 250px;
+}
+
+.menu, .footer{
+    height: 150px;
+}
+
+.left, .center, .right{
+    height: 400px
+}
+.font-size7{
+    font-size:7vw;
+}
+.font-size3{
+    font-size:3vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

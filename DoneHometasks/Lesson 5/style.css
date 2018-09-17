@@ -1,0 +1,82 @@
+.nav{
+	width: 620px;
+	margin: 0 auto;
+}
+
+.nav li{
+	list-style: none;
+	display: inline-block;
+	/*-webkit-margin-left: -4px; 
+	-moz-margin-left: -5px; 
+	-o-margin-left: -4px; 
+	-ms-margin-left: -5px; */
+	/*float: left;*/
+}
+
+/*ul.nav>li>a*/
+.nav a{
+	display: block;
+	background: green;
+	color: snow;
+	text-align: center;
+	text-decoration: none;
+	width: 100px;
+	padding: 10px 0;
+	border-radius: 15px;
+	text-shadow: 2px 2px 2px black;
+	box-shadow: 3px 3px 3px black;
+	transition: 3s
+}
+
+.nav a:hover{
+	background: lime
+}
+
+.menu{
+	margin-top: 50px 
+}
+
+.menu li{
+	list-style: none;
+	margin-top: 2px
+}
+
+.menu a{
+	display: block;
+	background: black;
+	color: snow;
+	text-align: center;
+	text-decoration: none;
+	width: 200px;
+	padding: 2px 0;
+	transition: .5s
+}
+
+.menu a:hover{
+	width: 400px
+}
+
+/*pry navedenni na element(y) 2-o menu
+ (zvertatysja za dopomogou
+  psevdo-klasy nth-child)
+   mae zminuvatysja:
+1) bg 1 elementa na red
+2) bg ostann'ogo na green
+3) bg kojnogo drygogo na blue*/
+
+/*tema 3/4/5/6 
++OKTEN gradient
++TABLE (kalendar +- takyu jak na prykladi)
++WEBREF HOME PAGE (paca na bootstrape)
+*/
+
+
+
+
+
+
+
+
+.menu li:nth-child(1) a:hover{
+	background: red
+}

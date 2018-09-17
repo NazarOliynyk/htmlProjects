@@ -1,0 +1,25 @@
+h3{
+    background: midnightblue;
+    color: palevioletred
+}
+
+#styleId{
+    background: red;
+    color: darkgreen
+}
+
+.style1{
+    background: violet;
+    font-size: 5.5rem;
+    text-align: center;
+    font-weight:  900;
+    font-style: italic
+    
+}
+
+.style2{
+    background: midnightblue;
+    color: red;
+    font-size: 270%;
+    font-weight: 100
+}

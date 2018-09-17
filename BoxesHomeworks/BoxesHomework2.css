@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    width: 100%;
+    border: 3px solid black;
+    color: azure;
+    text-align: center;
+    font-size: 85%;
+}
+.bord{
+    border: 2px solid brown;
+}
+.m-0{
+    margin: 0 auto;
+}
+.m-l-5{
+    margin-left: 5%;
+}
+.m-l-10{
+    margin-left: 10%
+}
+
+.m-35{
+    margin-top: 35%
+}
+.m-15{
+    margin-top: 16%
+}
+.m-17{
+    margin-top: 17%
+}
+.m-20{
+    margin-top: 20%
+}
+.m-10{
+    margin-top: 10%
+}
+.m-5{
+    margin-top: 5%
+}
+.bg-white{
+    background-color: white;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-pink{
+    background-color: pink;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-orange{
+    background-color: orange;
+}
+.bg-gray{
+    background-color: gray;
+}
+.w-40R{
+    width: 40%
+}
+.w-40{
+    width: 45%
+}
+.w-33{
+    width: 33.3%;
+}
+.w-25{
+    width: 25%;
+}
+.w-50{
+    width: 50%;
+}
+.w-70{
+    width: 70%
+}
+.w-80{
+    width: 80%;
+}
+.h-150px{
+    height: 150px;
+}
+.h-250px{
+    height: 250px;
+}
+.h-90{
+    height: 90%;
+}
+.h-80{
+    height: 80%;
+}
+.h-70{
+    height: 70%;
+}
+.h-60{
+    height: 60%;
+}
+.h-50{
+    height: 50%;
+}
+.h-40{
+    height: 40%;
+}
+.h-30{
+    height: 30%;
+}
+.h-15{
+    height: 15%
+}
+.float-r{
+    float:right
+}
+.float-l{
+    float:left
+}
+.clearfix{
+    clear: both
+}

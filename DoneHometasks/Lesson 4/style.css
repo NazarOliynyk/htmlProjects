@@ -1,0 +1,64 @@
+.box{
+	width: 777px;
+	background: orange;
+	border: 5px solid red;
+	font-size: 10rem;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*.xxx{
+	color: snow;
+	text-decoration: none;
+	background: black;
+	display: block;
+}*/
+
+/*div.box>a*/
+.box a{
+	color: snow;
+	text-decoration: none;
+	background: black;
+	display: block;
+	transition: 3s
+}
+
+
+
+
+
+
+
+ul{}
+
+ul>ul{
+	background: red
+}
+
+ul ul{
+	color: blue
+}
+
+ul>li>ul>li{}
+ul li li{}
+li li{}
+
+.sobachenko li{}
+
+
+
+
+p{}
+#fdfd{}
+.gg{}
+
+p::selection{
+	background: pink
+}
+
+.box a:hover{
+	background: red;
+	color: lime;
+	font-size: 5rem;
+	transform: rotate(-77deg);
+}

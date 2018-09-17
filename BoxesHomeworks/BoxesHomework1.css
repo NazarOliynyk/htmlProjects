@@ -1,0 +1,115 @@
+.main{
+    width: 100%;
+    border: 5px solid black;
+    margin: 0 auto;
+    color: aquamarine;
+    text-align: center;
+    font-size: 95%
+}
+.insideHeader{
+    background-color: white;
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+    color: white;
+    font-size: 180%
+    
+}
+.insideInsideHeader{
+    background-color: black;
+    width: 80%;
+    height: 30%;
+    margin: 0 auto;
+    
+}
+.insideLeftBlock{
+   background-color: orange;
+    margin: 0 auto;
+    width: 70%;
+    height: 70%;
+    margin-top: 10%
+}
+.m-35{
+    margin-top: 35%
+}
+.m-17{
+    margin-top: 17%
+}
+.m-10{
+    margin-top: 10%
+}
+.m-5{
+    margin-top: 5%
+}
+.bg-red{
+    background: red
+}
+.bg-blue{
+    background: blue
+}
+.bg-green{
+    background: green
+}
+.bg-yellow{
+    background: yellow
+}
+.bg-pink{
+    background: pink
+}
+
+.bg-gray{
+    background: gray
+}
+.bg-orange{
+    background: orange;
+}
+.bg-snow{
+    background: snow
+}
+.bg-black{
+    background: black
+}
+
+.header, .footer{
+    height: 250px
+}
+.h-90{
+    height: 90%
+}
+.h-80{
+    height: 80%
+}
+.h-70{
+    height: 70%
+}
+.h-50{
+    height: 50%
+}
+.h-30{
+    height: 30%
+}
+.left, .center, .right{
+    height: 250px
+}
+.menu{
+    height: 150px
+}
+
+.w-50{
+    width: 50%
+}
+.w-33{
+    width: 33.3%
+}
+.w-25{
+    width: 25%
+}
+.float-r{
+    float:right
+}
+.float-l{
+    float:left
+}
+.clearfix{
+    clear: both
+}

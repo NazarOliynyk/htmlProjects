@@ -1,0 +1,22 @@
+ul{
+	width: 620px; 
+	margin: 0 auto
+}
+
+li {
+	list-style: none;
+	display: inline-block
+}
+
+a{
+	display: block;
+	width: 100px;
+	padding: 10px 0;
+	text-align: center;
+	background: orange;
+	color: mediumorchid;
+}
+
+.colorForNav{
+    background-color: burlywood
+}

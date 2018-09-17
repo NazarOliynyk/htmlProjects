@@ -1,0 +1,34 @@
+h2{
+	background: orange
+}
+
+#kozel{
+	background: snow;
+	color: blue;
+}
+
+.ovca{
+	background: violet;
+	text-align: center;
+	font-size: 7rem;
+	font-weight: 900;
+	font-style: italic;
+}
+.koza{
+	background: black;
+	color: red;
+}
+
+.kaka{
+	width: 1000px;
+	/*height: 100%;*/
+	background: orange; 
+	font-size: 9rem;
+	/*border-style: solid;
+	border-color: red;
+	border-width: 5px*/
+	border: 5px solid red;
+	padding-left: 50px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}

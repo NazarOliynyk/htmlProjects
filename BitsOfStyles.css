@@ -1,0 +1,12 @@
+*{
+    background-color: peachpuff
+}
+.c-blue { color: blueviolet}
+
+.text-center { text-align: center }
+
+p b{ color: red} 
+
+p>i{ color: green} 
+
+b + i { color: darkmagenta}

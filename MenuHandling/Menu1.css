@@ -1,0 +1,23 @@
+ul{
+	width: 600px; 
+    padding: 5px;
+	margin: 0 auto;
+}
+
+li {
+	list-style: none;
+	display: table-header-group
+}
+
+a{
+	display: block;
+	width: 125px;
+	padding: 10px 0;
+	text-align: center;
+	background: pink;
+	color: mediumorchid;
+}
+
+.colorForNav{
+    background-color: burlywood
+}

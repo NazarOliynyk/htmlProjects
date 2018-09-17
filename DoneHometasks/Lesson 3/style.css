@@ -1,0 +1,56 @@
+.box{
+	width: 1000px;
+	background: orange;
+	border: 5px solid red;
+	margin: 0 auto;
+	color: snow;
+	text-align: center;
+}
+
+.bg-blue{
+	background: blue
+}
+
+.bg-red{
+	background: red
+}
+
+.bg-black{
+	background: black
+}
+
+.bg-pink{
+	background: pink
+}
+
+.bg-yellow{
+	background: yellow
+}
+
+.bg-green{
+	background: green
+}
+
+.header, .footer{
+	height: 250px
+}
+
+.menu{
+	height: 150px
+}
+
+.left, .center, .right{
+	height: 400px
+}
+
+.w-33{
+	width: 33.3%
+}
+
+.float-l{
+	float: left
+}
+
+.clearfix{
+	clear: both
+}

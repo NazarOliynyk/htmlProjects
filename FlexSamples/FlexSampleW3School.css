@@ -1,0 +1,147 @@
+.flex-container1-div{
+    background-color: beige;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px        
+} 
+
+
+.flex-container-1{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: aqua
+}
+
+
+.flex-container-2 {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+}
+
+.flex-container-3 {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: DodgerBlue;
+}
+.flex-container-4 {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: chartreuse;
+}
+.flex-container-5 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: cyan;
+}
+.flex-container-6 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: aquamarine;
+}
+.flex-container-7 {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  background-color: coral;
+}
+.flex-container-8 {
+  display: flex;
+  flex-wrap: row wrap;
+  background-color: rebeccapurple;
+}
+.flex-container-9 {
+  display: flex;
+  justify-content: center;
+  background-color: teal;
+}
+.flex-container-10 {
+  display: flex;
+  justify-content: flex-start;
+  background-color: salmon;
+}
+.flex-container-11 {
+  display: flex;
+  justify-content: space-around;
+  background-color: crimson;
+}
+.flex-container-12 {
+  display: flex;
+  justify-content: space-between;
+  background-color: fuchsia;
+}
+.flex-container-13 {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  background-color: bisque
+}
+.flex-container-14 {
+  display: flex;
+  height: 200px;
+  align-items: flex-start;
+  background-color: orchid
+}
+.flex-container-15 {
+  display: flex;
+  height: 200px;
+  align-items: stretch;
+  background-color: greenyellow
+}
+.flex-container-16 {
+  display: flex;
+  height: 200px;
+  align-items: baseline;
+  background-color: lightcoral
+}
+.flex-container-17 {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-between;
+  background-color: deeppink
+}
+.flex-container-18 {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-around;
+  background-color: dimgrey
+}
+.flex-container-19 {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: green
+}
+.flex-container-20 {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  background-color: azure
+}
+.flex-container-21 {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: darkmagenta
+}
+.flex-container-22 {
+  display: flex;2
+  height: 300px;
+  justify-content: flex-start;
+  background-color: blue
+}
+.flex-container-23 {
+  display: flex;
+  height: 200px;
+  background-color: brown
+}
+
+
+

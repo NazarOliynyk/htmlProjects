@@ -1,0 +1,168 @@
+.nav{
+	width: 620px;
+	margin: 0 auto;
+}
+
+.nav li{
+	list-style: none;
+	display: inline-block;
+	/*-webkit-margin-left: -4px; 
+	-moz-margin-left: -5px; 
+	-o-margin-left: -4px; 
+	-ms-margin-left: -5px; */
+	/*float: left;*/
+}
+
+/*ul.nav>li>a*/
+.nav a{
+	display: block;
+	background: green;
+	color: snow;
+	text-align: center;
+	text-decoration: none;
+	width: 100px;
+	padding: 10px 0;
+	border-radius: 15px;
+	text-shadow: 2px 2px 2px black;
+	box-shadow: 3px 3px 3px black;
+	transition: 3s
+}
+
+.nav a:hover{
+	background: lime
+}
+
+.menu{
+	margin-top: 50px 
+}
+
+.menu li{
+	list-style: none;
+	margin-top: 2px
+}
+
+.menu a{
+	display: block;
+	background: black;
+	color: snow;
+	text-align: center;
+	text-decoration: none;
+	width: 200px;
+	padding: 2px 0;
+	transition: .5s
+}
+
+.menu a:hover{
+	width: 400px
+}
+
+/*pry navedenni na element(y) 2-o menu
+ (zvertatysja za dopomogou
+  psevdo-klasy nth-child)
+   mae zminuvatysja:
+1) bg 1 elementa na red
+2) bg ostann'ogo na green
+3) bg kojnogo drygogo na blue*/
+
+/*tema 3/4/5/6 
++OKTEN gradient
++TABLE (kalendar +- takyu jak na prykladi)
++WEBREF HOME PAGE (paca na bootstrape)
+*/
+
+
+.menu li:nth-child(1) a:hover{
+	background: red
+}
+
+
+.menu li:nth-child(even) a:hover{
+	background: blue
+}
+
+.menu li:nth-child(8) a:hover{
+	background: green
+}
+
+.t1{
+	width: 777px;
+	margin: 0 auto;
+	text-align: center;
+	background: silver;
+	border: 1px solid black
+}
+
+.t1 td{
+	height: 77px;
+	border: 1px solid black
+}
+
+.t1 tr:nth-child(2) td,
+.t1 tr:nth-child(odd) td{
+	height: 22px
+}
+
+.t1 td:nth-child(7){
+	background: red
+}
+
+.t1 tr:nth-child(odd) td:nth-child(7){
+	background: lime
+}
+
+/*.t1 td:nth-child(7){
+	background: blue
+}*/
+
+.t1 tr:nth-child(3) td:nth-child(1),
+.t1 tr:nth-child(3) td:nth-child(2),
+.t1 tr:nth-child(4) td:nth-child(1),
+.t1 tr:nth-child(4) td:nth-child(2){
+	background: lime
+}
+
+
+.super{
+	width: 620px;
+	/*margin: 0 auto;*/
+	position: fixed;
+	z-index: 9999!important;
+}
+
+.super li{
+	list-style: none;
+	display: inline-block;
+}
+
+.super a{
+	display: block;
+	background: violet;
+	color: snow;
+	text-align: center;
+	width: 100px;
+	text-decoration: none;
+	transition: 3s
+}
+
+.super span{
+	display: block;
+	font-size: 2rem
+}
+
+.super a:hover{
+	background: aqua;
+	color: black
+}
+
+.super a:hover span{
+	color: yellow;
+	transform: rotate(333deg);
+}
+
+.super span{
+	transition: 5s
+}
+
+.super li:nth-child(odd) a:hover span{
+	transform: rotate(-333deg);
+}

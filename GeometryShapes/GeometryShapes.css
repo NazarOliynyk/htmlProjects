@@ -1,0 +1,113 @@
+#rectangle {
+ width: 200px; 
+height: 100px; 
+background-color: red;
+    float: left
+ }
+
+.square {
+ width: 100px; 
+height: 100px; 
+background: green;
+    float: left
+}
+
+#circle { 
+width: 100px; 
+height: 100px; 
+background: blue; 
+-moz-border-radius: 50px; 
+-webkit-border-radius: 
+50px; border-radius: 50px; 
+    float: left
+}
+.oval { 
+width: 200px; 
+height: 100px; 
+background: orange; 
+-moz-border-radius: 100px / 50px; 
+-webkit-border-radius: 100px / 50px; 
+border-radius: 100px / 50px; 
+float: left
+}
+
+.triangle-up { 
+width: 0; 
+height: 0; 
+border-left: 70px solid transparent;
+ border-right: 90px solid transparent; 
+border-bottom: 100px solid red; 
+    float: left
+}
+
+.triangle-down { 
+width: 0; height: 0; 
+border-left: 50px solid transparent; 
+border-right: 50px solid transparent; 
+border-top: 250px solid red; 
+    float: left
+}
+
+.triangle-left { 
+width: 0; 
+height: 0; 
+border-top: 50px solid transparent; 
+border-right: 100px solid red; 
+border-bottom: 50px solid transparent; 
+    float: left
+}
+.triangle-right { 
+width: 0; 
+height: 0; 
+border-top: 80px solid transparent; 
+border-left: 100px solid red; 
+border-bottom: 40px solid transparent; 
+   float: left 
+}
+
+.triangle-topleft { 
+width: 0; 
+height: 0; 
+border-top: 100px solid red; 
+border-right: 100px solid transparent; 
+   float: left  
+}
+
+.triangle-topright { 
+width: 0; 
+height: 0; 
+border-top: 100px solid red; 
+border-left: 100px solid transparent; 
+    float: left 
+}
+.division {
+ width: 10px; 
+height: 100px; 
+background: white;
+    float: left
+}
+
+.triangle-bottomleft { 
+width: 0; 
+height: 0; 
+border-bottom: 100px solid red; 
+border-right: 100px solid transparent; 
+    float: left 
+    }
+
+.triangle-bottomright { 
+width: 0;
+ height: 0;
+ border-bottom: 100px solid red;
+ border-left: 100px solid transparent; 
+    float: left
+}
+
+.trapezoid {
+ border-bottom: 100px solid gray;
+ border-left: 50px solid transparent; 
+border-right: 50px solid transparent;
+ height: 0;
+ width: 100px;
+    float: left
+ }
